@@ -1,0 +1,24 @@
+{
+  "name": "my-component-library",
+  "version": "1.0.0",
+  "description": "My new component library",
+  "main": "index.js",
+  "repository": "git@github.com:KatieLo/my-component-library.git",
+  "author": "Katie",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "@storybook/react": "^3.3.12",
+    "@storybook/addon-actions": "^3.3.12",
+    "@storybook/addon-links": "^3.3.12",
+    "@storybook/addons": "^3.3.12",
+    "babel-core": "^6.26.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
